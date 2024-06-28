@@ -22,11 +22,11 @@
 
 //-------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-#include "Metal/MTLDrawable.hpp"
-#include "Metal/MTLTexture.hpp"
+#include "MacOS/Metal/MTLDrawable.hpp"
+#include "MacOS/Metal/MTLTexture.hpp"
 
-#include "QuartzCore/CADefines.hpp"
-#include "QuartzCore/CAPrivate.hpp"
+#include "MacOS/QuartzCore/CADefines.hpp"
+#include "MacOS/QuartzCore/CAPrivate.hpp"
 
 //-------------------------------------------------------------------------------------------------------------------------------------------------------------
 

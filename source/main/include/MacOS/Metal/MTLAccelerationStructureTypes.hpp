@@ -22,12 +22,12 @@
 
 //-------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-#include "Metal/MTLDefines.hpp"
-#include "Metal/MTLPrivate.hpp"
-#include "Metal/MTLResource.hpp"
-#include "Metal/MTLStageInputOutputDescriptor.hpp"
+#include "MacOS/Metal/MTLDefines.hpp"
+#include "MacOS/Metal/MTLPrivate.hpp"
+#include "MacOS/Metal/MTLResource.hpp"
+#include "MacOS/Metal/MTLStageInputOutputDescriptor.hpp"
 
-#include "Foundation/NSRange.hpp"
+#include "MacOS/Foundation/NSRange.hpp"
 
 //-------------------------------------------------------------------------------------------------------------------------------------------------------------
 

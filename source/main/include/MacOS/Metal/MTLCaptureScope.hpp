@@ -22,11 +22,11 @@
 
 //-------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-#include "Metal/MTLDefines.hpp"
-#include "Metal/MTLPrivate.hpp"
+#include "MacOS/Metal/MTLDefines.hpp"
+#include "MacOS/Metal/MTLPrivate.hpp"
 
-#include "Foundation/NSObject.hpp"
-#include "Foundation/NSString.hpp"
+#include "MacOS/Foundation/NSObject.hpp"
+#include "MacOS/Foundation/NSString.hpp"
 
 //-------------------------------------------------------------------------------------------------------------------------------------------------------------
 

@@ -22,9 +22,9 @@
 
 //-------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-#include "Foundation/NSDefines.hpp"
-#include "Foundation/NSPrivate.hpp"
-#include "Foundation/NSTypes.hpp"
+#include "MacOS/Foundation/NSDefines.hpp"
+#include "MacOS/Foundation/NSPrivate.hpp"
+#include "MacOS/Foundation/NSTypes.hpp"
 
 #include <objc/message.h>
 #include <objc/runtime.h>

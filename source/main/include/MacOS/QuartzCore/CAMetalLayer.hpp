@@ -22,13 +22,13 @@
 
 //-------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-#include "Metal/MTLPixelFormat.hpp"
-#include "Metal/MTLTexture.hpp"
+#include "MacOS/Metal/MTLPixelFormat.hpp"
+#include "MacOS/Metal/MTLTexture.hpp"
 #include <CoreGraphics/CGGeometry.h>
 
-#include "QuartzCore/CADefines.hpp"
-#include "QuartzCore/CAMetalDrawable.hpp"
-#include "QuartzCore/CAPrivate.hpp"
+#include "MacOS/QuartzCore/CADefines.hpp"
+#include "MacOS/QuartzCore/CAMetalDrawable.hpp"
+#include "MacOS/QuartzCore/CAPrivate.hpp"
 
 //-------------------------------------------------------------------------------------------------------------------------------------------------------------
 

@@ -19,7 +19,7 @@
 //-------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 #pragma once
-#include "Metal/MTLPrivate.hpp"
+#include "MacOS/Metal/MTLPrivate.hpp"
 
 namespace MTL::Private::Class
 {

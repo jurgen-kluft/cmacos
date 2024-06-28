@@ -20,10 +20,10 @@
 
 #pragma once
 
-#include "Metal/MTLDefines.hpp"
-#include "Metal/MTLHeaderBridge.hpp"
-#include "Metal/MTLPrivate.hpp"
-#include "Metal/MTLDevice.hpp"
+#include "MacOS/Metal/MTLDefines.hpp"
+#include "MacOS/Metal/MTLHeaderBridge.hpp"
+#include "MacOS/Metal/MTLPrivate.hpp"
+#include "MacOS/Metal/MTLDevice.hpp"
 
 #include <Foundation/Foundation.hpp>
 

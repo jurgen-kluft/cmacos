@@ -25,7 +25,7 @@
 
 //-------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-#include "MetalKit/MetalKitPrivate.hpp"
+#include "MacOS/MetalKit/MetalKitPrivate.hpp"
 
 #include <AppKit/AppKit.hpp>
 #include <Metal/Metal.hpp>

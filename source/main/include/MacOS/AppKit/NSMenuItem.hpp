@@ -26,7 +26,7 @@
 //-------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 #include <Foundation/NSPrivate.hpp>
-#include "AppKit/AppKitPrivate.hpp"
+#include "MacOS/AppKit/AppKitPrivate.hpp"
 #include <string>
 
 namespace NS

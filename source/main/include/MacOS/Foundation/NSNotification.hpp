@@ -22,11 +22,11 @@
 
 //-------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-#include "Foundation/NSDefines.hpp"
-#include "Foundation/NSDictionary.hpp"
-#include "Foundation/NSObject.hpp"
-#include "Foundation/NSString.hpp"
-#include "Foundation/NSTypes.hpp"
+#include "MacOS/Foundation/NSDefines.hpp"
+#include "MacOS/Foundation/NSDictionary.hpp"
+#include "MacOS/Foundation/NSObject.hpp"
+#include "MacOS/Foundation/NSString.hpp"
+#include "MacOS/Foundation/NSTypes.hpp"
 #include <functional>
 
 //-------------------------------------------------------------------------------------------------------------------------------------------------------------

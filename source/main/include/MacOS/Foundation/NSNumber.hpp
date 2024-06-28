@@ -22,9 +22,9 @@
 
 //-------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-#include "Foundation/NSObjCRuntime.hpp"
-#include "Foundation/NSObject.hpp"
-#include "Foundation/NSTypes.hpp"
+#include "MacOS/Foundation/NSObjCRuntime.hpp"
+#include "MacOS/Foundation/NSObject.hpp"
+#include "MacOS/Foundation/NSTypes.hpp"
 
 //-------------------------------------------------------------------------------------------------------------------------------------------------------------
 

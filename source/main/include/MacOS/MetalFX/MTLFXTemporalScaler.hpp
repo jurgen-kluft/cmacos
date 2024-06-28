@@ -22,10 +22,10 @@
 
 //-------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-#include "MetalFX/MTLFXDefines.hpp"
-#include "MetalFX/MTLFXPrivate.hpp"
+#include "MacOS/MetalFX/MTLFXDefines.hpp"
+#include "MacOS/MetalFX/MTLFXPrivate.hpp"
 
-#include "Metal/Metal.hpp"
+#include "MacOS/Metal/Metal.hpp"
 
 //-------------------------------------------------------------------------------------------------------------------------------------------------------------
 

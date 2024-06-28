@@ -20,7 +20,7 @@
 
 #pragma once
 
-#include "Foundation/NSDefines.hpp"
+#include "MacOS/Foundation/NSDefines.hpp"
 
 namespace NS
 {

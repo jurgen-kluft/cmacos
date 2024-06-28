@@ -22,9 +22,9 @@
 
 //-------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-#include "Foundation/NSEnumerator.hpp"
-#include "Foundation/NSObject.hpp"
-#include "Foundation/NSTypes.hpp"
+#include "MacOS/Foundation/NSEnumerator.hpp"
+#include "MacOS/Foundation/NSObject.hpp"
+#include "MacOS/Foundation/NSTypes.hpp"
 
 //-------------------------------------------------------------------------------------------------------------------------------------------------------------
 

@@ -20,18 +20,18 @@
 
 #pragma once
 
-#include "Metal/MTLDefines.hpp"
-#include "Metal/MTLHeaderBridge.hpp"
-#include "Metal/MTLPrivate.hpp"
+#include "MacOS/Metal/MTLDefines.hpp"
+#include "MacOS/Metal/MTLHeaderBridge.hpp"
+#include "MacOS/Metal/MTLPrivate.hpp"
 
 #include <Foundation/Foundation.hpp>
 
-#include "Metal/MTLArgument.hpp"
-#include "Metal/MTLDevice.hpp"
-#include "Metal/MTLPixelFormat.hpp"
-#include "Metal/MTLResource.hpp"
-#include "Metal/MTLTexture.hpp"
-#include "Metal/MTLTypes.hpp"
+#include "MacOS/Metal/MTLArgument.hpp"
+#include "MacOS/Metal/MTLDevice.hpp"
+#include "MacOS/Metal/MTLPixelFormat.hpp"
+#include "MacOS/Metal/MTLResource.hpp"
+#include "MacOS/Metal/MTLTexture.hpp"
+#include "MacOS/Metal/MTLTypes.hpp"
 #include <IOSurface/IOSurfaceRef.h>
 #include <functional>
 

@@ -20,15 +20,15 @@
 
 #pragma once
 
-#include "Metal/MTLDefines.hpp"
-#include "Metal/MTLHeaderBridge.hpp"
-#include "Metal/MTLPrivate.hpp"
+#include "MacOS/Metal/MTLDefines.hpp"
+#include "MacOS/Metal/MTLHeaderBridge.hpp"
+#include "MacOS/Metal/MTLPrivate.hpp"
 
 #include <Foundation/Foundation.hpp>
 
-#include "Metal/MTLIndirectCommandBuffer.hpp"
-#include "Metal/MTLResource.hpp"
-#include "Metal/MTLTypes.hpp"
+#include "MacOS/Metal/MTLIndirectCommandBuffer.hpp"
+#include "MacOS/Metal/MTLResource.hpp"
+#include "MacOS/Metal/MTLTypes.hpp"
 
 namespace MTL
 {

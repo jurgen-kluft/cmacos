@@ -26,11 +26,11 @@
 //-------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 #include <Foundation/Foundation.hpp>
-#include "AppKit/AppKitPrivate.hpp"
-#include "AppKit/NSApplication.hpp"
-#include "AppKit/NSRunningApplication.hpp"
-#include "AppKit/NSWindow.hpp"
-#include "AppKit/NSMenu.hpp"
-#include "AppKit/NSMenuItem.hpp"
+#include "MacOS/AppKit/AppKitPrivate.hpp"
+#include "MacOS/AppKit/NSApplication.hpp"
+#include "MacOS/AppKit/NSRunningApplication.hpp"
+#include "MacOS/AppKit/NSWindow.hpp"
+#include "MacOS/AppKit/NSMenu.hpp"
+#include "MacOS/AppKit/NSMenuItem.hpp"
 
 //-------------------------------------------------------------------------------------------------------------------------------------------------------------

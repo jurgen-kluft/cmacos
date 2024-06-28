@@ -22,7 +22,7 @@
 
 //-------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-#include "Foundation/NSDefines.hpp"
+#include "MacOS/Foundation/NSDefines.hpp"
 
 #include <CoreFoundation/CoreFoundation.h>
 #include <cstdint>

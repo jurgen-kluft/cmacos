@@ -22,8 +22,8 @@
 
 //-------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-#include "Foundation/NSObject.hpp"
-#include "Foundation/NSEnumerator.hpp"
+#include "MacOS/Foundation/NSObject.hpp"
+#include "MacOS/Foundation/NSEnumerator.hpp"
 
 /*****Immutable Set*******/
 

@@ -22,11 +22,11 @@
 
 //-------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-#include "Foundation/NSDefines.hpp"
-#include "Foundation/NSNotification.hpp"
-#include "Foundation/NSObject.hpp"
-#include "Foundation/NSPrivate.hpp"
-#include "Foundation/NSTypes.hpp"
+#include "MacOS/Foundation/NSDefines.hpp"
+#include "MacOS/Foundation/NSNotification.hpp"
+#include "MacOS/Foundation/NSObject.hpp"
+#include "MacOS/Foundation/NSPrivate.hpp"
+#include "MacOS/Foundation/NSTypes.hpp"
 
 #include <functional>
 

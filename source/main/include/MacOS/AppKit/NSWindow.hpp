@@ -25,8 +25,8 @@
 
 //-------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-#include "AppKit/AppKitPrivate.hpp"
-#include "AppKit/NSView.hpp"
+#include "MacOS/AppKit/AppKitPrivate.hpp"
+#include "MacOS/AppKit/NSView.hpp"
 #include <Foundation/NSObject.hpp>
 
 #include <CoreGraphics/CGGeometry.h>

@@ -22,14 +22,14 @@
 
 #include <mach/mach.h>
 
-#include "Metal/MTLDefines.hpp"
-#include "Metal/MTLHeaderBridge.hpp"
-#include "Metal/MTLPrivate.hpp"
+#include "MacOS/Metal/MTLDefines.hpp"
+#include "MacOS/Metal/MTLHeaderBridge.hpp"
+#include "MacOS/Metal/MTLPrivate.hpp"
 
 #include <Foundation/Foundation.hpp>
 
-#include "Metal/MTLAllocation.hpp"
-#include "Metal/MTLResource.hpp"
+#include "MacOS/Metal/MTLAllocation.hpp"
+#include "MacOS/Metal/MTLResource.hpp"
 
 namespace MTL
 {

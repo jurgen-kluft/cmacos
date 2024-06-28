@@ -27,7 +27,7 @@
 //-------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 #include <Foundation/Foundation.hpp>
-#include "AppKit/AppKitPrivate.hpp"
+#include "MacOS/AppKit/AppKitPrivate.hpp"
 
 namespace NS
 {
