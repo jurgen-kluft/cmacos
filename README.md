@@ -1,23 +1,19 @@
-# cbase
+# cmacos
 
-Cross platform base library
+Foundation, AppKit, Metal, MetalFX, MetalKit, MetalShaderConverter and QuartzCore.
 
-- cbase (depends on [ccore](https://github.com/jurgen-kluft/ccore))
-  - system allocator
-  - binary search
-  - bitfield
-  - buffer / binary reader / binary writer
-  - console
-  - endian
-  - hierarchical bitset (hbb_t)
-  - integer (min/max, clamp, align, ilog2, findLastBit, findFirstBit, countBits, countTrailingZeros/countLeadingZeros)
-  - limits (minimum/maximum value of system types)
-  - log (logging to console)
-  - printf / sprintf
-  - random (interface)
-  - runes (ascii, utf-8, utf-16, utf-32) and many string manipulation functions
-  - low-level string functions
-  - slice
-  - sort
-  - tls
-  - va-list (va_t)
+C++ API for Mac OS for the following modules:
+
+- [x] [AppKit](https://developer.apple.com/documentation/appkit)
+- [x] [Foundation](https://developer.apple.com/documentation/foundation)
+- [x] [Metal](https://developer.apple.com/documentation/metal)
+- [x] [MetalFX](https://developer.apple.com/documentation/metalfx)
+- [x] [MetalKit](https://developer.apple.com/documentation/metalkit)
+- [x] [MetalShaderConverter](https://developer.apple.com/documentation/metalshaderconverter)
+- [x] [QuartzCore](https://developer.apple.com/documentation/quartzcore)
+
+## Header Files
+
+All of the modules are header-only with one exception: `cmacos::MetalShaderConverter` which also includes a library.
+
+
