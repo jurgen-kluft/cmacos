@@ -1,4 +1,4 @@
-package cbase
+package cmacos
 
 import (
 	denv "github.com/jurgen-kluft/ccode/denv"
