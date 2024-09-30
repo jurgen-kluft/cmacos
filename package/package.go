@@ -16,8 +16,18 @@ func GetPackage() *denv.Package {
 	mainpkg := denv.NewPackage(name)
 
 	// library
-	mainlib := denv.SetupDefaultCppLibProject(name, repo_path+name)
+	mainlib := denv.SetupDefaultCppLibProjectWithLibs(name, repo_path+name, getPlatformLibs())
 
 	mainpkg.AddMainLib(mainlib)
 	return mainpkg
+}
+
+func getPlatformLibs() []*denv.Lib {
+	if denv.IsMacOS() {
+		macLibs := []*denv.Lib{
+			{Configs: denv.ConfigTypeAll, Type: denv.UserLibrary, Files: []string{"metalirconverter"}, Dir: "lib/macos"},
+		}
+		return macLibs
+	}
+	return []*denv.Lib{}
 }
