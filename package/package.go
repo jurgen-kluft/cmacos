@@ -16,7 +16,7 @@ func GetPackage() *denv.Package {
 	mainpkg := denv.NewPackage(name)
 
 	// library
-	mainlib := denv.SetupDefaultCppLibProjectWithLibs(name, repo_path+name, getPlatformLibs())
+	mainlib := denv.SetupCppLibProjectWithLibs(name, repo_path+name, getPlatformLibs())
 
 	mainpkg.AddMainLib(mainlib)
 	return mainpkg
