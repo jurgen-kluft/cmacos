@@ -2,6 +2,7 @@ package cmacos
 
 import (
 	denv "github.com/jurgen-kluft/ccode/denv"
+	"github.com/jurgen-kluft/ccode/dev"
 )
 
 const (
@@ -12,22 +13,22 @@ const (
 func GetPackage() *denv.Package {
 	name := repo_name
 
-	// The main (cmacos) package
-	mainpkg := denv.NewPackage(name)
+	// main package
+	mainpkg := denv.NewPackage(repo_path, repo_name)
 
-	// library
-	mainlib := denv.SetupCppLibProjectWithLibs(name, repo_path+name, getPlatformLibs())
+	// main library
+	mainlib := denv.SetupCppLibProjectWithLibs(mainpkg, name, getPlatformLibs())
 
 	mainpkg.AddMainLib(mainlib)
 	return mainpkg
 }
 
-func getPlatformLibs() []*denv.Lib {
+func getPlatformLibs() []*denv.DevLib {
 	if denv.IsMacOS() {
-		macLibs := []*denv.Lib{
-			{Configs: denv.ConfigTypeAll, Type: denv.UserLibrary, Files: []string{"metalirconverter"}, Dir: "lib/macos"},
+		macLibs := []*denv.DevLib{
+			{BuildConfigs: dev.NewBuildAllConfigList(), LibType: dev.LibraryTypeUser, Files: []string{"metalirconverter"}, Dir: "lib/macos"},
 		}
 		return macLibs
 	}
-	return []*denv.Lib{}
+	return []*denv.DevLib{}
 }
