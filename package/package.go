@@ -1,7 +1,7 @@
 package cmacos
 
 import (
-	denv "github.com/jurgen-kluft/gide/denv"
+	denv "github.com/jurgen-kluft/go-ide/denv"
 )
 
 const (
